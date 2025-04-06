@@ -1,3 +1,8 @@
-asgiref==3.8.1
-Django==5.1.7
-sqlparse==0.5.3
+# asgiref==3.8.1
+# Django==5.1.7
+# sqlparse==0.5.3
+# 버전이 너무 높아서 안될 수 있으니 아래 같이 버전 변경, db는 migrate명령어로 생성
+# 안되면 삭제했다 다시 깔고 종료했다 다시 키기 
+Django==4.2.10
+sqlparse==0.4.4
+asgiref==3.7.2
