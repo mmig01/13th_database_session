@@ -8,3 +8,9 @@ class ShortKeys(models.Model):
 
 
 
+class Person(models.Model):
+    first_name = models.TextField()
+    last_name = models.TextField()
+    
+    def __str__(self):
+        return self.last_name
