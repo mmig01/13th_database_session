@@ -4,3 +4,6 @@ from django.contrib import admin
 from .models import ShortKeys
 # 모델을 admin에 등록하여 관리할 수 있도록 설정
 admin.site.register(ShortKeys)
+
+from .models import Person
+admin.site.register(Person)
