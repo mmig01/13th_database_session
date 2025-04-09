@@ -7,3 +7,11 @@ class Shortkeys(models.Model):
 
     def __str__(self):
         return self.key_name
+    
+
+class Person(models.Model):
+    first_name = models.TextField()
+    last_name = models.TextField()
+
+    def __str__(self):
+        return self.last_name
